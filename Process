@@ -1,0 +1,17 @@
+Step 1: Make a directory and give it a name corresponding to the name of repository. Eg:
+	mkdir learngit
+Step 2: Change Directory
+	cd learngit
+Step 3: Initialize git with the directory
+	git init
+Step 4: Linking this directory with your online repository
+	git remote add origin https://github.com/pandyakavi/learngit.git
+Step 5: Create any file. Lets create README File.
+	gedit README
+Step 6: To add all the current file or README file to the repository type:
+	git add .
+Step 7: Give name to commit. I will give the name as 'First Commit'
+	git commit -m 'First Commit'
+Step 8: Push the files to repository
+	git push origin master
+Step 9: You will be asked to enter your username and password. Enter them and you are done. 
